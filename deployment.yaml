@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: toronto-time-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: toronto-time
+  template:
+    metadata:
+      labels:
+        app: toronto-time
+    spec:
+      containers:
+      - name: toronto-time
+        image: maheshchalise/toronto-time-app:latest
+        ports:
+        - containerPort: 30
