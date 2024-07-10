@@ -16,4 +16,4 @@ spec:
       - name: toronto-time
         image: maheshchalise/toronto-time-app:latest
         ports:
-        - containerPort: 30
+        - containerPort: 3030
