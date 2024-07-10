@@ -7,7 +7,7 @@ spec:
     app: toronto-time
   ports:
     - protocol: TCP
-      port: 30
-      targetPort: 30
+      port: 3030
+      targetPort: 3030
       nodePort: 30300
   type: NodePort
