@@ -14,7 +14,7 @@ Run the Docker Container
 ```
 docker run -p 3030:3030 toronto-time-app:latest
 ```
-Access the application at http://localhost:3030 in your web browser.
+Access the application at http://127.0.0.1:62006 in your web browser.
 
 Steps to Deploy and Access the Application on Kubernetes
 Deploy Kubernetes Resources:
